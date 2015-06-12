@@ -6,12 +6,17 @@
 namespace {{cookiecutter.namespace}} {{"{"}}
 
   class {{cookiecutter.class}} {{"{"}}
+    {{cookiecutter.answer_type}} {{cookiecutter.method}} ( ) {{"{"}}
+
+    {{"}"}}
 
   {{"}"}};
 {{"}"}}
 {% else %}
 class {{cookiecutter.class}} {{"{"}}
+  {{cookiecutter.answer_type}} {{cookiecutter.method}} ( ) {{"{"}}
 
+  {{"}"}}
 {{"}"}};
 {% endif %}
 
