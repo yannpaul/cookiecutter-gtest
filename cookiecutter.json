@@ -1,4 +1,6 @@
 {
     "class": "FooBar",
-    "namespace": ""
+    "namespace": "",
+    "answer_type": "int",
+    "method": ""
 }
