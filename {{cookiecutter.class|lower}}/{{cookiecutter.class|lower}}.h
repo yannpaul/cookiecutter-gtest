@@ -1,4 +1,4 @@
-
+// -*- c++ -*-
 #ifndef {{cookiecutter.class|upper}}_H
 #define {{cookiecutter.class|upper}}_H
 
