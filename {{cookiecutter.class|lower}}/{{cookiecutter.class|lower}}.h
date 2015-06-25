@@ -5,8 +5,9 @@
 {% if cookiecutter.namespace %}
 namespace {{cookiecutter.namespace}} {{"{"}}
 
-  class {{cookiecutter.class}} {{"{"}}
-    {{cookiecutter.answer_type}} {{cookiecutter.method}} ( ) {{"{"}}
+  class {{cookiecutter.class}} {{"{"}} 
+  public:
+  {{cookiecutter.answer_type}} {{cookiecutter.method}} ({{cookiecutter.args}}) {{"{"}}
 
     {{"}"}}
 
@@ -14,7 +15,8 @@ namespace {{cookiecutter.namespace}} {{"{"}}
 {{"}"}}
 {% else %}
 class {{cookiecutter.class}} {{"{"}}
-  {{cookiecutter.answer_type}} {{cookiecutter.method}} ( ) {{"{"}}
+public:
+  {{cookiecutter.answer_type}} {{cookiecutter.method}} ({{cookiecutter.args}}) {{"{"}}
 
   {{"}"}}
 {{"}"}};

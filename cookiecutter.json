@@ -2,5 +2,6 @@
     "class": "FooBar",
     "namespace": "",
     "answer_type": "int",
-    "method": ""
+    "method": "",
+    "args": ""
 }
